@@ -1,2 +1,2 @@
 #!/bin/bash
-./perm1 ./perm2
+chmod 751 hello ./perm2
