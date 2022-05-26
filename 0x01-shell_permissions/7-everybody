@@ -1,2 +1,2 @@
 #!/bin/bash
-source perm1 perm2
+./perm1 ./perm2
