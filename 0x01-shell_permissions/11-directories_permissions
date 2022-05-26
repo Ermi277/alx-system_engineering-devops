@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R +g=x, +o=x, +u=x ./.
+chmod -R +g=x, +o=x, +u=x +a=x ./.
