@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $SHELL| printenv
+echo $SHELL | printenv
