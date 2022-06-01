@@ -1,2 +1,2 @@
 #!/bin/bash
-echo Chicago | sed 's/c//'
+echo < | sed 's/c//'
