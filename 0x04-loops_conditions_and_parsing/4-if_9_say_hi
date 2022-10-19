@@ -3,12 +3,13 @@
 
 i=0
 
-while [ $i -lt 10 ]
+while [ $i -le 10 ]
 do
-	if [ $i -eq 10 ]
+	if [ $i -eq 9 ]
 	then
 		echo "Hi"
+	else
+		echo "Best School"
 	fi
-	echo "Best School"
 	(( i++ ))
 done
