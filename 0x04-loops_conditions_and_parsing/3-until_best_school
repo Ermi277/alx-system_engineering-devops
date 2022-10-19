@@ -1,14 +1,11 @@
 #!/usr/bin/env bash
 #print best school 10 times using until loop
 
-i = 0 
+i=0 
 
-until false; do
+until [ $i -eq 10 ]
+do
 	echo "Best School"
 	((i++))
-	if [[%i -lt 10]]; then
-		continue
-	else
-		break
-	fi
 done
+
